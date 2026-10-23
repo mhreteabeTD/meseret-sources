@@ -19,7 +19,8 @@ Process once, then read the transcription: `raw` → `split` → `transcribed` �
 | 11 | agriculture, biology, chemistry, economics, english (2 parts), geography, history, it, maths (2 parts), physics |
 | 12 | agriculture, biology (3 parts), chemistry, economics, geography, history, it, maths (2 parts), physics |
 
-Built chapters: Grade 8 Maths U1, Grade 5 Maths U1. Big books are cut into parts in page order (GitHub's 100 MB file limit).
+Built chapters: Grade 8 Maths U1, Grade 5 Maths U1.
+Transcribed (`source.md` ready, no PDF needed): **Grade 12 Maths U1, U2**. Big books are cut into parts in page order (GitHub's 100 MB file limit).
 
 ## Teacher guides
 | Grade | Subjects |
