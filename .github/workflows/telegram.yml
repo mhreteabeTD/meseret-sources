@@ -18,7 +18,5 @@ jobs:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
-      - name: Commit
-        run: |
-          git config user.name "Mhreteabe Tesfaye"; git config user.email "mhreteabetesfaye71624@gmail.com"
-          git add -A; git diff --cached --quiet && echo "nothing to commit" || (git commit -qm "Telegram: new files" && git push)
+      - name: Commit in batches
+        run: python tools/commit_batches.py
