@@ -1,0 +1,24 @@
+name: Fetch from Telegram
+on:
+  schedule: [{ cron: '17 * * * *' }]   # every hour
+  workflow_dispatch:
+permissions: { contents: write }
+concurrency: telegram
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install -q kurigram tgcrypto pypdf requests
+      - run: python tools/tg_fetch.py
+        env:
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+      - name: Commit
+        run: |
+          git config user.name "Mhreteabe Tesfaye"; git config user.email "mhreteabetesfaye71624@gmail.com"
+          git add -A; git diff --cached --quiet && echo "nothing to commit" || (git commit -qm "Telegram: new files" && git push)
