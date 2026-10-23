@@ -1,0 +1,1199 @@
+[
+ {
+  "ref": "EUEE 2013 Physics Q11",
+  "year": 2013,
+  "subject": "physics",
+  "q": 11,
+  "unit": 2,
+  "topic": "torque, conditions of equilibrium",
+  "text": "Equilibrium is the state of an object when",
+  "opts": {
+   "A": "the net force acting on it is constant.",
+   "B": "the object has a constant linear acceleration.",
+   "C": "the net force and net torque are both zero.",
+   "D": "the object has constant angular acceleration."
+  },
+  "answer": "C",
+  "level": 2,
+  "explanation": "1) First condition (translational equilibrium): ΣF = 0, so no linear acceleration.\n2) Second condition (rotational equilibrium): Στ = 0 about any axis, so no angular acceleration.\n3) An object is in (full) equilibrium only when both hold: net force = 0 and net torque = 0.\n4) A constant non-zero net force (A) gives constant acceleration; B and D describe accelerating objects, so they are not in equilibrium.",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Physics Q12",
+  "year": 2013,
+  "subject": "physics",
+  "q": 12,
+  "unit": 2,
+  "topic": "torque balance, seesaw",
+  "text": "The fulcrum of a uniform 20 kg seesaw that is 4.0 m long is located 2.5 m from one end. A 30 kg child sits on the long end. The weight of a person sitting on the other end in order to balance the seesaw is (g = 10 m/s²)",
+  "opts": {
+   "A": "750 N",
+   "B": "850 N",
+   "C": "433 N",
+   "D": "567 N"
+  },
+  "answer": "D",
+  "level": 3,
+  "explanation": "1) Long side = 2.5 m, short side = 4.0 − 2.5 = 1.5 m.\n2) The seesaw's weight (20 × 10 = 200 N) acts at its centre, 2.0 m from the end, i.e. 2.5 − 2.0 = 0.5 m from the fulcrum on the long side.\n3) Torque on the long side: (30 × 10 N)(2.5 m) + (200 N)(0.5 m) = 750 + 100 = 850 N·m.\n4) Balance: W × 1.5 m = 850 N·m → W = 850/1.5 ≈ 567 N.\n5) 750 N ignores the seesaw's own weight and uses the wrong arm; 850 N is the torque value, not a force; 433 N comes from wrong lever arms.",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Physics Q23",
+  "year": 2013,
+  "subject": "physics",
+  "q": 23,
+  "unit": 2,
+  "topic": "orbits, apparent weightlessness",
+  "text": "Which of the following is correct about an astronaut inside an international space station orbiting the Earth?",
+  "opts": {
+   "A": "Since the Earth exerts equal forces on both the astronaut and the space, the astronaut experiences weightlessness.",
+   "B": "The astronaut experiences weightlessness since the Earth's gravitational force on the astronaut is less than the Earth's force on the space station.",
+   "C": "The astronauts experience weightlessness because the space station and the astronauts are freely falling towards the center of the earth.",
+   "D": "Because the Earth exerts a larger force on the astronaut than on the space station, the astronaut experienced weightlessness."
+  },
+  "answer": "C",
+  "level": 2,
+  "explanation": "1) In orbit, gravity is still strong (about 90% of its surface value at ISS height) and is the centripetal force keeping both station and astronaut in orbit.\n2) Station and astronaut have the same acceleration g′ toward Earth's centre: both are in free fall together.\n3) So the floor pushes nothing on the astronaut (normal force = 0): apparent weightlessness.\n4) A, B and D explain it by comparing gravitational forces; force size does not matter (the force is proportional to mass, so accelerations are equal) — the cause is common free fall.",
+  "review": "Book key gives B (\"gravitational force on the astronaut is less than the force on the station\"). That is not the reason for weightlessness; the standard textbook reason is free fall of both station and astronaut, option C. Worked answer C."
+ },
+ {
+  "ref": "EUEE 2013 Physics Q24",
+  "year": 2013,
+  "subject": "physics",
+  "q": 24,
+  "unit": 2,
+  "topic": "torque balance about a pivot",
+  "text": "Two masses m₁ and m₂ are balanced on a horizontal stick of negligible mass pivoted at the center of mass of the system. If the distance of m₁ to the center of mass is 3.0 m and the distance from the mass m₂ to the center of mass is 1.0 m, the ratio of m₁ to m₂ (m₁/m₂) is",
+  "opts": {
+   "A": "4/3",
+   "B": "3/4",
+   "C": "3",
+   "D": "1/3"
+  },
+  "answer": "D",
+  "level": 2,
+  "explanation": "1) Balance about the pivot: clockwise torque = anticlockwise torque.\n2) m₁g(3.0 m) = m₂g(1.0 m).\n3) m₁/m₂ = 1.0/3.0 = 1/3 (the mass farther from the pivot is lighter).\n4) C (3) inverts the ratio; A and B use the total length 4 m, which has no role here.",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Physics Q28",
+  "year": 2013,
+  "subject": "physics",
+  "q": 28,
+  "unit": 2,
+  "topic": "angular and linear speed, v = ωr",
+  "text": "For a rigid body rotating about a fixed axis,",
+  "opts": {
+   "A": "a point closer to the axis has smaller linear speed than a point farther from the axis.",
+   "B": "a point closer to the axis has greater linear speed than a point farther from the axis.",
+   "C": "for the same time interval, a point closer to the axis and a point farther from the axis travel the same linear distance.",
+   "D": "for the same time interval, a point closer to the axis turns through a smaller angle than a point farther from the axis."
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) In a rigid body every point has the same angular displacement θ and angular speed ω.\n2) Linear speed v = ωr, so v grows with distance r from the axis.\n3) So a point nearer the axis has smaller linear speed.\n4) B reverses v = ωr; C is wrong because arc length s = rθ depends on r; D is wrong because all points turn through the same angle.",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Physics Q29",
+  "year": 2013,
+  "subject": "physics",
+  "q": 29,
+  "unit": 2,
+  "topic": "torque, angular velocity with constant α",
+  "text": "A disk of radius 0.10 m and mass 0.1 kg is set into motion by a tangential force of 2.0 N applied at the edge of the disk. If the angular acceleration of the disk is 400 rad/s², the torque and angular velocity at 2.0 s are, respectively (the disk starts from rest)",
+  "opts": {
+   "A": "0.2 N·m and 400 rad/s",
+   "B": "0.1 N·m and 200 rad/s",
+   "C": "0.5 N·m and 100 rad/s",
+   "D": "0.2 N·m and 800 rad/s"
+  },
+  "answer": "D",
+  "level": 3,
+  "explanation": "1) Tangential force at the rim: τ = F r = 2.0 N × 0.10 m = 0.20 N·m.\n2) Check: I = ½mr² = ½(0.1)(0.10)² = 5×10^(−4) kg·m², α = τ/I = 0.20/5×10^(−4) = 400 rad/s² (agrees).\n3) Starting from rest: ω = ω₀ + αt = 0 + 400 × 2.0 = 800 rad/s.\n4) A uses t = 1 s; B and C use wrong torques (τ ≠ 0.1 or 0.5 N·m).",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Physics Q39",
+  "year": 2013,
+  "subject": "physics",
+  "q": 39,
+  "unit": 2,
+  "topic": "centripetal force and acceleration",
+  "text": "Choose a correct statement about centripetal force and centripetal acceleration.",
+  "opts": {
+   "A": "Centripetal force on an object moving in a circular path is perpendicular to the radius of the path.",
+   "B": "Centripetal force on an object moving in a circular path tends to pull the object outward from the path.",
+   "C": "For an object moving in a circular path, its centripetal force and centripetal acceleration are parallel and directed toward the center of the path.",
+   "D": "Centripetal acceleration and centripetal force are constant in direction, but vary in magnitude."
+  },
+  "answer": "C",
+  "level": 2,
+  "explanation": "1) Centripetal acceleration a_c = v²/r points toward the centre.\n2) By Newton's 2nd law F_c = m a_c, so the force points the same way: both are along the radius, toward the centre.\n3) A is wrong (they are along the radius, perpendicular to the velocity); B describes an outward pull, which is wrong; D is wrong because their direction changes continuously while (in uniform motion) the magnitude is constant.",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Physics Q40",
+  "year": 2013,
+  "subject": "physics",
+  "q": 40,
+  "unit": 2,
+  "topic": "Newton's law of gravitation, satellite orbits",
+  "text": "According to Newton's law of Universal Gravitation,",
+  "opts": {
+   "A": "the period of a satellite orbiting the Earth in a circular orbit increases as the radius of its orbit increases.",
+   "B": "the gravitational attraction between two objects is directly proportional to the square of the distance between them.",
+   "C": "the speed of a satellite moving around the Earth in a circular orbit depends on the mass of the satellite.",
+   "D": "for two interacting objects, the gravitational force exerted on a light object is less than the force on the heavy one."
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) For a circular orbit, gravity gives the centripetal force: GMm/r² = mv²/r → v = √(GM/r).\n2) Period T = 2πr/v = 2π√(r³/GM), so T² ∝ r³ (Kepler's third law): T increases as r increases.\n3) B is wrong: F ∝ 1/r² (inverse square). C is wrong: v = √(GM/r) does not contain m. D is wrong: by Newton's third law the forces on the two objects are equal in size.",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Chemistry Q30",
+  "year": 2013,
+  "subject": "chemistry",
+  "q": 30,
+  "unit": 1,
+  "topic": "Lewis acid–base adduct, coordinate covalent bond",
+  "text": "Given the reaction: NH₃ + H⁺ → NH₄⁺. The bond formed between NH₃ and H⁺ is",
+  "opts": {
+   "A": "Nonpolar covalent",
+   "B": "Coordinate covalent",
+   "C": "Simple covalent",
+   "D": "Ionic bond"
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) H⁺ has no electrons; NH₃ has a lone pair on N.\n2) N donates both electrons of its lone pair to H⁺ (NH₃ = Lewis base, H⁺ = Lewis acid).\n3) A shared pair supplied by one atom only is a coordinate (dative) covalent bond.\n4) A and C imply each atom gives one electron; D is wrong because no electron transfer to form separate ions occurs.",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Chemistry Q32",
+  "year": 2013,
+  "subject": "chemistry",
+  "q": 32,
+  "unit": 1,
+  "topic": "Arrhenius concept of bases",
+  "text": "What is the Arrhenius concept of base?",
+  "opts": {
+   "A": "A substance that releases hydrogen ion in water is base.",
+   "B": "A base furnishes a pair of electrons.",
+   "C": "A substance that increases hydrogen ion in water is a base.",
+   "D": "A base is proton acceptor."
+  },
+  "answer": "C",
+  "level": 2,
+  "explanation": "1) Arrhenius: an acid produces H⁺ (H₃O⁺) in water; a base produces OH⁻ in water (e.g. NaOH → Na⁺ + OH⁻).\n2) As printed, no option says 'produces OH⁻'. C (as keyed) only works if 'hydrogen ion' is read as 'hydroxide ion'.\n3) A and C as printed describe an Arrhenius ACID; B is the Lewis definition of a base; D is the Brønsted–Lowry definition of a base.",
+  "review": "As printed no option is correct: the Arrhenius base produces/increases OH⁻ in water. Book key C ('increases hydrogen ion') describes an acid — almost certainly a misprint for 'hydroxide ion'. Answer kept as C only on that reading; edit option C to 'A substance that increases hydroxide ion (OH⁻) concentration in water is a base' before use."
+ },
+ {
+  "ref": "EUEE 2013 Chemistry Q33",
+  "year": 2013,
+  "subject": "chemistry",
+  "q": 33,
+  "unit": 1,
+  "topic": "Brønsted–Lowry acid",
+  "text": "The Brønsted–Lowry concept defines an acid as a substance that",
+  "opts": {
+   "A": "furnishes proton to a molecule",
+   "B": "gives hydrogen ion in water.",
+   "C": "accepts proton from a molecule.",
+   "D": "produces hydroxide ion in water."
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) Brønsted–Lowry: acid = proton (H⁺) donor; base = proton acceptor.\n2) 'Furnishes a proton to a molecule' = donates H⁺ → acid.\n3) B is the Arrhenius acid definition (limited to water); C is a Brønsted base; D is an Arrhenius base.",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Chemistry Q43",
+  "year": 2013,
+  "subject": "chemistry",
+  "q": 43,
+  "unit": 1,
+  "topic": "Brønsted–Lowry base, conjugate pairs",
+  "text": "In the following reaction, which is the Brønsted–Lowry base?\nHC₂O₄⁻(aq) + H₂O(l) → H₃O⁺(aq) + C₂O₄²⁻(aq)",
+  "opts": {
+   "A": "C₂O₄²⁻",
+   "B": "H₂O",
+   "C": "H₃O⁺",
+   "D": "HC₂O₄⁻"
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) HC₂O₄⁻ loses H⁺ to become C₂O₄²⁻ → HC₂O₄⁻ is the acid (proton donor).\n2) H₂O gains that H⁺ to become H₃O⁺ → H₂O is the base (proton acceptor).\n3) Conjugate pairs: HC₂O₄⁻/C₂O₄²⁻ and H₃O⁺/H₂O.\n4) A is the conjugate base and C the conjugate acid (products, on the reverse side); D is the acid.",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Chemistry Q44",
+  "year": 2013,
+  "subject": "chemistry",
+  "q": 44,
+  "unit": 1,
+  "topic": "autoionization of water",
+  "text": "In the autoionization of water",
+  "opts": {
+   "A": "There is no transfer of hydrogen ion from the acid or the base.",
+   "B": "one water molecule acts as a Lewis base and the other water molecule acts as Lewis acid.",
+   "C": "a proton is transferred from one water molecule to another.",
+   "D": "an electron is transferred from one water molecule to another."
+  },
+  "answer": "C",
+  "level": 2,
+  "explanation": "1) H₂O(l) + H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq).\n2) One H₂O donates H⁺ (Brønsted acid) and becomes OH⁻; the other accepts H⁺ (Brønsted base) and becomes H₃O⁺.\n3) So the process is proton transfer between two water molecules (Kw = [H₃O⁺][OH⁻] = 1.0×10^(−14) at 25 °C).\n4) A denies the proton transfer; D (electron transfer) describes redox, not autoionization; B is not the standard description (the process is described as Brønsted proton transfer, not a Lewis adduct between two whole water molecules).",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Chemistry Q45",
+  "year": 2013,
+  "subject": "chemistry",
+  "q": 45,
+  "unit": 1,
+  "topic": "Lewis acids and bases, complex ions",
+  "text": "Given the following acid–base reaction: Ag⁺ + 2NH₃ ⇌ [Ag(NH₃)₂]⁺, the Lewis base is",
+  "opts": {
+   "A": "[Ag(NH₃)₂]⁺",
+   "B": "Ag⁺ and NH₃",
+   "C": "Ag⁺",
+   "D": "NH₃"
+  },
+  "answer": "D",
+  "level": 2,
+  "explanation": "1) Lewis base = electron-pair donor; Lewis acid = electron-pair acceptor.\n2) Each NH₃ donates its N lone pair to Ag⁺, forming coordinate bonds.\n3) So NH₃ is the Lewis base and Ag⁺ (electron-deficient metal ion) is the Lewis acid.\n4) A is the product (adduct/complex ion); C is the Lewis acid; B wrongly calls both reactants bases.",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Chemistry Q71",
+  "year": 2013,
+  "subject": "chemistry",
+  "q": 71,
+  "unit": 1,
+  "topic": "weak acid pH, Ka",
+  "text": "What is the pH and [H⁺] of a 0.2 M solution of HCN? (Ka = 4.9×10^(−10))",
+  "opts": {
+   "A": "pH = 5; [H⁺] = 4.9×10^(−10)",
+   "B": "pH = 5; [H⁺] = 9.9×10^(−6)",
+   "C": "pH = 3; [H⁺] = 4.9×10^(−10)",
+   "D": "pH = 3; [H⁺] = 4.9×10^(−6)"
+  },
+  "answer": "B",
+  "level": 3,
+  "explanation": "1) HCN ⇌ H⁺ + CN⁻; at equilibrium [H⁺] = [CN⁻] = x, [HCN] = 0.2 − x ≈ 0.2 (Ka is tiny).\n2) Ka = x²/0.2 → x² = 4.9×10^(−10) × 0.2 = 9.8×10^(−11).\n3) x = √(9.8×10^(−11)) ≈ 9.9×10^(−6) M = [H⁺].\n4) pH = −log(9.9×10^(−6)) = 6 − 0.996 ≈ 5.0.\n5) A and C give Ka as [H⁺]; C and D also give pH 3, which would need [H⁺] = 10^(−3) M.",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Chemistry Q72",
+  "year": 2013,
+  "subject": "chemistry",
+  "q": 72,
+  "unit": 1,
+  "topic": "common ion effect",
+  "text": "A common ion effect in a certain weak acid will make the solution less acidic. This is because the presence of a common ion",
+  "opts": {
+   "A": "enhances the ionization of salt of weak acid.",
+   "B": "suppresses the ionization of weak acid.",
+   "C": "enhances the ionization of the weak acid.",
+   "D": "suppresses the ionization of the weak acid."
+  },
+  "answer": "D",
+  "level": 2,
+  "explanation": "1) Weak acid: HA ⇌ H⁺ + A⁻. Adding a salt containing A⁻ (e.g. NaA) raises [A⁻].\n2) By Le Chatelier's principle the equilibrium shifts left, so less HA ionizes.\n3) Less ionization → lower [H⁺] → higher pH (less acidic).\n4) A and C say 'enhances', the opposite of what happens. B states the same idea as D.",
+  "review": "Options B and D are worded identically as printed ('suppresses the ionization of (the) weak acid'). Book key D; B is equally correct. Reword one of them before use."
+ },
+ {
+  "ref": "EUEE 2013 Chemistry Q73",
+  "year": 2013,
+  "subject": "chemistry",
+  "q": 73,
+  "unit": 1,
+  "topic": "hydrolysis of salt of weak acid and weak base",
+  "text": "A salt is formed from a weak acid (HCN) whose Ka = 4.9×10^(−10) and a weak base whose Kb = 1.8×10^(−5). What would you expect about the solution of the salt formed from HCN and NH₃?",
+  "opts": {
+   "A": "The solution can be either acidic or basic at the same time.",
+   "B": "The solution will be neutral, because the concentration of OH⁻ equals that of H⁺.",
+   "C": "The solution will be basic, because the concentration of OH⁻ is less than that of H⁺.",
+   "D": "The solution will be basic, because the concentration of OH⁻ is greater than that of H⁺."
+  },
+  "answer": "D",
+  "level": 2,
+  "explanation": "1) The salt is NH₄CN: NH₄⁺ hydrolyses to give H⁺, CN⁻ hydrolyses to give OH⁻.\n2) Compare Ka(HCN) = 4.9×10^(−10) with Kb(NH₃) = 1.8×10^(−5): Kb > Ka.\n3) So CN⁻ (Kb = Kw/Ka ≈ 2.0×10^(−5)) is a stronger base than NH₄⁺ (Ka = Kw/Kb ≈ 5.6×10^(−10)) is an acid → [OH⁻] > [H⁺], basic.\n4) A is impossible; B needs Ka = Kb; C contradicts itself (basic means [OH⁻] > [H⁺]).",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Chemistry Q74",
+  "year": 2013,
+  "subject": "chemistry",
+  "q": 74,
+  "unit": 1,
+  "topic": "titration curves",
+  "text": "A titration curve (pH against volume of titrant added, 0–35 mL) starts at pH ≈ 1.5, rises only slowly to about pH 3 by 15 mL, then rises almost vertically at about 15 mL from pH ≈ 3 to pH ≈ 11.5, and levels off near pH 12.5–13. The curve shows the titration of",
+  "opts": {
+   "A": "a weak acid with strong base.",
+   "B": "a weak base with strong acid.",
+   "C": "a weak acid with a weak base.",
+   "D": "a strong base with a strong acid."
+  },
+  "answer": "D",
+  "level": 2,
+  "explanation": "1) pH rises as titrant is added, so an acid is being titrated with a base.\n2) Starting pH ≈ 1–1.5 means a strong (fully ionized) acid; there is no buffer region.\n3) The vertical jump is long (≈ pH 3 to 11) and centred on pH 7, ending near pH 13 → strong acid–strong base.\n4) A would start near pH 3, show a buffer region and an equivalence point above 7; B would have pH falling; C gives no sharp jump at all.",
+  "review": "The curve is a figure in the paper; it is described in words in the stem. Book key D (strong acid titrated with strong base)."
+ },
+ {
+  "ref": "EUEE 2013 Chemistry Q75",
+  "year": 2013,
+  "subject": "chemistry",
+  "q": 75,
+  "unit": 1,
+  "topic": "titration: equivalence point vs end point",
+  "text": "What is the difference between equivalence point and end point in an acid–base titration?",
+  "opts": {
+   "A": "At the equivalence point, the pH is always 7 and at the end point there is a color change.",
+   "B": "At the end point, the pH is always 7 and at the equivalence point there is a color change.",
+   "C": "Equivalence point is where stoichiometrically equivalent amounts of the analyte and titrant react and end point is where an observable physical change occurs in a titration.",
+   "D": "Equivalence point is where an observable physical change occurs in a titration."
+  },
+  "answer": "C",
+  "level": 2,
+  "explanation": "1) Equivalence point: moles of H⁺ added/present exactly equal moles of OH⁻ (stoichiometric amounts).\n2) End point: where the indicator changes colour (observed); a good indicator makes it very close to the equivalence point.\n3) A and B are wrong because the pH at equivalence is 7 only for strong acid–strong base (above 7 for weak acid–strong base, below 7 for weak base–strong acid). D swaps the definitions.",
+  "review": null
+ },
+ {
+  "ref": "EUEE 2013 Chemistry Q78",
+  "year": 2013,
+  "subject": "chemistry",
+  "q": 78,
+  "unit": 1,
+  "topic": "normality",
+  "text": "The number of equivalents per liter of solution is known as",
+  "opts": {
+   "A": "mole fraction",
+   "B": "molality",
+   "C": "normality",
+   "D": "molarity"
+  },
+  "answer": "C",
+  "level": 2,
+  "explanation": "1) Normality N = number of equivalents of solute / volume of solution in litres.\n2) For acids/bases, equivalents = moles × number of H⁺ or OH⁻ supplied (e.g. 1 M H₂SO₄ = 2 N).\n3) Molarity is moles per litre; molality is moles per kg of solvent; mole fraction is a ratio of moles.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Physics Q2",
+  "year": 2014,
+  "subject": "physics",
+  "q": 2,
+  "unit": 2,
+  "topic": "rotational kinematics, constant angular acceleration",
+  "text": "A wheel rotating at angular speed of 20 rev/s is brought to rest after 40 rev under a constant angular acceleration. The angular acceleration of a point on the wheel is",
+  "opts": {
+   "A": "−0.5 rev/s²",
+   "B": "0.25 rev/s²",
+   "C": "5 rev/s²",
+   "D": "−5 rev/s²"
+  },
+  "answer": "D",
+  "level": 3,
+  "explanation": "1) Given ω₀ = 20 rev/s, ω = 0, Δθ = 40 rev; time is not given, so use ω² = ω₀² + 2αΔθ.\n2) 0 = (20)² + 2α(40) → 80α = −400.\n3) α = −5 rev/s² (negative: the wheel is slowing down).\n4) C has the right size but the wrong sign; A and B come from wrong formulas (e.g. dividing ω₀ by Δθ).",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Physics Q3",
+  "year": 2014,
+  "subject": "physics",
+  "q": 3,
+  "unit": 2,
+  "topic": "moment of inertia, parallel-axis theorem",
+  "text": "The parallel axis theorem states that if I_cm is the moment of inertia of a body of mass M about an axis passing through its center of mass (cm), its moment of inertia about any axis",
+  "opts": {
+   "A": "perpendicular to and a displacement d from the axis through the cm is I = I_cm + Md².",
+   "B": "parallel to and a displacement d from the axis through the cm is I = I_cm + ½Md².",
+   "C": "perpendicular to and a displacement d from the axis through the cm is I = I_cm + ½Md².",
+   "D": "parallel to and a displacement d from the axis through the cm is I = I_cm + Md²."
+  },
+  "answer": "D",
+  "level": 2,
+  "explanation": "1) The parallel-axis theorem applies to a new axis that is PARALLEL to the axis through the centre of mass.\n2) If the two parallel axes are a distance d apart: I = I_cm + Md².\n3) Example: thin rod, I_cm = ML²/12; about a parallel axis at one end (d = L/2): ML²/12 + ML²/4 = ML²/3.\n4) A and C wrongly say 'perpendicular'; B and C have a wrong factor ½.",
+  "review": "Book key gives A, but A says 'perpendicular to' the cm axis; the theorem (and the book's own working, I_p = I_cm + Md²) is for a PARALLEL axis, which is option D."
+ },
+ {
+  "ref": "ESSLCE 2014 Physics Q17",
+  "year": 2014,
+  "subject": "physics",
+  "q": 17,
+  "unit": 2,
+  "topic": "satellite orbital speed and period",
+  "text": "Which of the following is true about satellite motion?",
+  "opts": {
+   "A": "For equal orbital radius, a satellite moving around the Earth has smaller speed than a satellite moving about the Moon.",
+   "B": "A satellite closer to the Earth is faster than a satellite farther from the Earth.",
+   "C": "A satellite closer to the Earth takes longer time to complete one revolution than a satellite farther from the Earth.",
+   "D": "For two satellites moving around the Earth at equal orbital radius, a heavier satellite has larger speed than a lighter one."
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) Gravity provides the centripetal force: GMm/r² = mv²/r → v = √(GM/r).\n2) Smaller r → larger v, so a closer satellite is faster (B).\n3) A is wrong: Earth's mass M is larger than the Moon's, so at equal r the Earth satellite is faster.\n4) C is wrong: T = 2π√(r³/GM) is shorter for smaller r. D is wrong: v does not depend on the satellite's mass m.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Physics Q31",
+  "year": 2014,
+  "subject": "physics",
+  "q": 31,
+  "unit": 1,
+  "topic": "applications of sound: ultrasound scanning, echo",
+  "text": "Which of the following statements is NOT correct about reflection and refraction of sound waves and their applications?",
+  "opts": {
+   "A": "Reflection and refraction of sound are used to detect flaws in metals and to help people park their cars.",
+   "B": "Refraction of sound is the change in its direction as it travels through a medium having different densities.",
+   "C": "In pre-natal scanning, reflection and refraction of sound allows doctors to monitor the progress of a developing body.",
+   "D": "Reflection of sound (echo) is formed when sound enters a medium of varying densities."
+  },
+  "answer": "D",
+  "level": 2,
+  "explanation": "1) Reflection (echo) is sound bouncing back from a boundary/surface.\n2) A change of direction as sound passes into regions of different density is refraction, not reflection — so D is the incorrect statement.\n3) A is true (ultrasonic flaw detection, parking sensors); B is the definition of refraction; C is true (ultrasound pre-natal scanning uses echoes from tissue boundaries).",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Physics Q32",
+  "year": 2014,
+  "subject": "physics",
+  "q": 32,
+  "unit": 2,
+  "topic": "work done by a torque",
+  "text": "A torque τ rotates an object of mass m and moment of inertia I through an angle θ. The work done on the object by the torque is",
+  "opts": {
+   "A": "τθ",
+   "B": "τd",
+   "C": "Iθ",
+   "D": "mθ"
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) Linear work: W = F s, with s = rθ for a force applied tangentially at radius r.\n2) W = F rθ = (F r)θ = τθ (θ in radians).\n3) B mixes torque with a linear distance; C (Iθ) and D (mθ) do not have units of energy.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Physics Q33",
+  "year": 2014,
+  "subject": "physics",
+  "q": 33,
+  "unit": 2,
+  "topic": "orbital period from Newton's law of gravitation",
+  "text": "A satellite revolves around the Earth in a circular orbit of radius r = 4×10^16 m. The period of the satellite is (G = 6.67×10^(−11) N·m²/kg², M_E = 6×10^24 kg)",
+  "opts": {
+   "A": "3.7×10^26 s",
+   "B": "2.5×10^18 s",
+   "C": "2.5×10^19 s",
+   "D": "3.7×10^27 s"
+  },
+  "answer": "B",
+  "level": 3,
+  "explanation": "1) GMm/r² = mv²/r → v = √(GM/r).\n2) GM = 6.67×10^(−11) × 6×10^24 ≈ 4.0×10^14 m³/s²; GM/r = 4.0×10^14 / 4×10^16 = 1.0×10^(−2) → v = 0.1 m/s.\n3) T = 2πr/v = 2π(4×10^16)/0.1 ≈ 2.5×10^18 s.\n4) Check with Kepler III: T = 2π√(r³/GM) = 2π√(6.4×10^49/4.0×10^14) = 2π(4×10^17) ≈ 2.5×10^18 s. C is 10× too big; A and D come from not taking the square root.",
+  "review": "Book answer B agrees. The constants G and M_E are taken from the book's solution (the paper's constants page is not in the scan). The radius 4×10^16 m is physically unrealistic for an Earth satellite (several light-years); fine for practice arithmetic but consider changing it."
+ },
+ {
+  "ref": "ESSLCE 2014 Physics Q50",
+  "year": 2014,
+  "subject": "physics",
+  "q": 50,
+  "unit": 1,
+  "topic": "physics in communication: radio waves, v = fλ",
+  "text": "An FM radio signal is transmitted from a radio station at a frequency of 1.5×10^8 Hz. If the wavelength of the radio wave is 2.00 m, the speed of the FM signal is",
+  "opts": {
+   "A": "3×10^8 m/s",
+   "B": "0.75×10^8 m/s",
+   "C": "6×10^8 m/s",
+   "D": "1.33×10^(−8) m/s"
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) Wave speed v = fλ.\n2) v = (1.5×10^8 Hz)(2.00 m) = 3.0×10^8 m/s — the speed of light, as expected for an electromagnetic (radio) wave.\n3) B divides f by λ; C doubles the answer; D is λ/f.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2015 Physics Q4",
+  "year": 2015,
+  "subject": "physics",
+  "q": 4,
+  "unit": 2,
+  "topic": "moment of inertia, parallel-axis theorem",
+  "text": "A 30 kg rigid object has a moment of inertia 45 kg·m² about its center of mass. What is the object's moment of inertia when it rotates through an axis 2 m away and parallel to the axis through its center of mass?",
+  "opts": {
+   "A": "90 kg·m²",
+   "B": "165 kg·m²",
+   "C": "180 kg·m²",
+   "D": "105 kg·m²"
+  },
+  "answer": "B",
+  "level": 3,
+  "explanation": "1) Parallel-axis theorem: I = I_cm + Md².\n2) Md² = 30 kg × (2 m)² = 120 kg·m².\n3) I = 45 + 120 = 165 kg·m².\n4) D uses d instead of d² (45 + 60); A is 2 × 45; C is 45 × 4 (squares the wrong quantity).",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2015 Physics Q16",
+  "year": 2015,
+  "subject": "physics",
+  "q": 16,
+  "unit": 2,
+  "topic": "projectile motion: time of flight, range, maximum height",
+  "text": "A bullet is fired with an initial speed v at an angle θ with the horizontal. It takes a time T to reach its maximum vertical displacement h_max. It hits the target point a distance R away and exactly in the horizontal level to the point where it was fired. Which one of the following statements is NOT correct about the motion of the bullet?",
+  "opts": {
+   "A": "The bullet hits the target at a time 2T after it was fired.",
+   "B": "h_max is directly proportional to the initial speed v.",
+   "C": "R will be maximum if cos θ = √2/2.",
+   "D": "θ should be different from 90° to hit target at a distance R."
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) Same launch and landing level: rise time T = v sinθ/g, total flight time = 2T, so A is true.\n2) h_max = v² sin²θ/(2g): h_max ∝ v², not v — so B is NOT correct.\n3) R = v² sin2θ/g is largest at θ = 45°, where cos θ = √2/2, so C is true.\n4) At θ = 90° the bullet goes straight up and R = 0, so θ ≠ 90° is needed (D true).",
+  "review": "Book key gives C, apparently reading option C as printed 'cos θ = √(2/2)' (= 1, i.e. θ = 0°). Read as cos θ = √2/2 (θ = 45°) C is true, and B is the false statement (h_max ∝ v², as the book's own working shows). Worked answer B; option C rewritten as cos θ = √2/2 — check the original print."
+ },
+ {
+  "ref": "ESSLCE 2015 Physics Q20",
+  "year": 2015,
+  "subject": "physics",
+  "q": 20,
+  "unit": 2,
+  "topic": "torque as a vector, τ = r × F",
+  "text": "A force F = (î − 3k̂) N acts on a wooden bar and drags the bar through a displacement of r = 4î m. What is the torque due to the force in N·m?",
+  "opts": {
+   "A": "4î + 12ĵ",
+   "B": "−12ĵ",
+   "C": "12ĵ",
+   "D": "12k̂"
+  },
+  "answer": "C",
+  "level": 3,
+  "explanation": "1) Torque τ = r × F (position vector first).\n2) τ = 4î × (î − 3k̂) = 4(î × î) − 12(î × k̂).\n3) î × î = 0 and î × k̂ = −ĵ, so τ = 0 − 12(−ĵ) = +12ĵ N·m.\n4) B (−12ĵ) is F × r, the reversed order; A and D come from wrong cross-product rules.",
+  "review": "Book key gives B (−12ĵ), computed as F × r. The definition is τ = r × F, which gives +12ĵ (option C). Worked answer C."
+ },
+ {
+  "ref": "ESSLCE 2015 Physics Q36",
+  "year": 2015,
+  "subject": "physics",
+  "q": 36,
+  "unit": 2,
+  "topic": "Newton's law of gravitation, g at altitude",
+  "text": "What is the acceleration due to gravity at an altitude twice the radius of the Earth? (g_E is the gravitational acceleration on the surface of the Earth)",
+  "opts": {
+   "A": "g_E/9",
+   "B": "g_E/3",
+   "C": "g_E/4",
+   "D": "3g_E"
+  },
+  "answer": "A",
+  "level": 3,
+  "explanation": "1) g = GM/r², where r is measured from Earth's centre; at the surface g_E = GM/R².\n2) Altitude h = 2R, so r = R + h = 3R.\n3) g = GM/(3R)² = (GM/R²)/9 = g_E/9.\n4) C (g_E/4) wrongly uses r = 2R (forgets to add the radius); B uses 1/r instead of 1/r²; D has g increasing with height.",
+  "review": "Book key gives C (g_E/4), taking r = 2R_E. 'At an altitude twice the radius' means h = 2R_E, so r = 3R_E and g = g_E/9 (option A). Worked answer A; if the intended meaning was 'at a distance 2R_E from the centre', C would be right — consider rewording."
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q5",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 5,
+  "unit": 1,
+  "topic": "Lewis acid–base adduct, coordinate covalent bond",
+  "text": "Among the following reactions, which one shows a coordinate covalent bond formation?",
+  "opts": {
+   "A": "N (with 3 unpaired electrons) + 3H· → NH₃",
+   "B": "BF₃ + NH₃ → F₃B–NH₃ (B bonded to the lone pair of N)",
+   "C": "H· + ·Cl → H–Cl",
+   "D": "H· + ·H → H–H"
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) In a coordinate (dative) bond, both shared electrons come from one atom.\n2) In BF₃ + NH₃, boron has only 6 valence electrons (empty orbital) and N donates its lone pair: BF₃ is a Lewis acid, NH₃ a Lewis base, F₃B←NH₃ is the adduct.\n3) In A, C and D each atom supplies one electron to each shared pair, so these are ordinary covalent bonds.",
+  "review": "Options are Lewis-dot drawings in the paper; written here in words/formulas."
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q25",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 25,
+  "unit": 1,
+  "topic": "Lewis acid definition",
+  "text": "What is a Lewis acid? It is",
+  "opts": {
+   "A": "a proton donor",
+   "B": "an electron pair acceptor",
+   "C": "an electron pair donor",
+   "D": "a proton acceptor"
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) Lewis acid = electron-pair acceptor (e.g. BF₃, Ag⁺, H⁺); Lewis base = electron-pair donor (e.g. NH₃, H₂O).\n2) A is the Brønsted–Lowry acid; C is the Lewis base; D is the Brønsted–Lowry base.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q26",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 26,
+  "unit": 1,
+  "topic": "polyprotic acids",
+  "text": "Which of the following is a polyprotic acid?",
+  "opts": {
+   "A": "HCl",
+   "B": "H₃PO₄",
+   "C": "HF",
+   "D": "HNO₃"
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) A polyprotic acid has more than one ionizable H per molecule.\n2) H₃PO₄ ionizes in three steps: H₃PO₄ ⇌ H⁺ + H₂PO₄⁻ ⇌ H⁺ + HPO₄²⁻ ⇌ H⁺ + PO₄³⁻ (triprotic).\n3) HCl, HF and HNO₃ each have only one ionizable H (monoprotic).",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q27",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 27,
+  "unit": 1,
+  "topic": "properties of bases, indicators",
+  "text": "Which of the following does respect a general property of a base?",
+  "opts": {
+   "A": "Solutions of strong bases are good conductors of electricity.",
+   "B": "Aqueous solutions of bases turn blue litmus paper to red.",
+   "C": "Soluble bases release hydronium ion in aqueous solution.",
+   "D": "Aqueous solution of bases turns methyl orange in to red."
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) Strong bases (e.g. NaOH) ionize completely, giving many mobile ions (Na⁺, OH⁻), so their solutions conduct electricity well.\n2) B is wrong: bases turn red litmus blue (acids turn blue litmus red).\n3) C is wrong: soluble bases release OH⁻, not H₃O⁺.\n4) D is wrong: methyl orange is yellow in basic solution and red in acid.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q28",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 28,
+  "unit": 1,
+  "topic": "salts, neutralization",
+  "text": "What are salts? Salts are",
+  "opts": {
+   "A": "ionic compounds formed by complete replacement of ionizable hydrogen by anions of the acid.",
+   "B": "ionic compounds that result from the reaction between metal hydroxide and water.",
+   "C": "ionic compounds that derive their cations from a base and their anions from an acid.",
+   "D": "ionic compounds formed by partial replacement of ionizable hydroxide by metal cations."
+  },
+  "answer": "C",
+  "level": 2,
+  "explanation": "1) Acid + base → salt + water, e.g. NaOH + HCl → NaCl + H₂O.\n2) The salt's cation (Na⁺) comes from the base and its anion (Cl⁻) from the acid.\n3) A is wrong: ionizable H is replaced by metal (or NH₄⁺) cations, not anions. B describes no salt-forming reaction. D is wrong: hydroxide is not replaced by metal cations.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q29",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 29,
+  "unit": 2,
+  "topic": "electrolysis definition",
+  "text": "The process in which a compound absorbs electrical energy and decomposes into its elements is",
+  "opts": {
+   "A": "electrolysis",
+   "B": "solvolysis",
+   "C": "hydrolysis",
+   "D": "electroplating"
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) Electrolysis uses electrical energy to drive a non-spontaneous redox reaction, e.g. 2NaCl(l) → 2Na(l) + Cl₂(g).\n2) Solvolysis and hydrolysis are reactions with the solvent/water, not driven by electricity.\n3) Electroplating is one application of electrolysis (coating a metal with another metal), not decomposition into elements.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q30",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 30,
+  "unit": 2,
+  "topic": "batteries, lead storage battery",
+  "text": "Which of the following is true about galvanic cells used in commercial lead storage batteries? In lead storage batteries,",
+  "opts": {
+   "A": "galvanic cells are connected in series.",
+   "B": "galvanic cells are connected in parallel.",
+   "C": "half of galvanic cells are connected in series.",
+   "D": "half of galvanic cells are connected in parallel."
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) Each Pb/PbO₂/H₂SO₄ cell gives about 2 V.\n2) A 12 V car battery has six such cells connected in series, so their voltages add: 6 × 2 V = 12 V.\n3) Parallel connection (B, D) would keep the voltage at 2 V; C ('half in series') does not describe a real battery.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q31",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 31,
+  "unit": 2,
+  "topic": "industrial electrolysis: aluminium (Hall process)",
+  "text": "What is the purpose of synthetic cryolite in the extraction of aluminum by the Hall's process?",
+  "opts": {
+   "A": "Cryolite increases the purity of the extracted aluminum.",
+   "B": "Cryolite reduces the melting point of alumina.",
+   "C": "Cryolite increases the melting point of alumina.",
+   "D": "Cryolite is used as a catalyst in the extraction of aluminum."
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) Pure alumina (Al₂O₃) melts at about 2045 °C — too costly to keep molten.\n2) Dissolving it in molten cryolite (Na₃AlF₆) lowers the working temperature to about 950–1000 °C and improves conductivity.\n3) A is not its role (purity comes from purified bauxite); C is the opposite; D is wrong — cryolite is a solvent, not a catalyst.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q65",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 65,
+  "unit": 1,
+  "topic": "conjugate acid–base pairs",
+  "text": "For the reaction shown below, which of the following is a conjugate acid–base pair?\nHC₂O₄⁻(aq) + H₂O(l) ⇌ H₃O⁺ + C₂O₄²⁻",
+  "opts": {
+   "A": "HC₂O₄⁻ and H₂O",
+   "B": "H₂O and C₂O₄²⁻",
+   "C": "H₃O⁺ and HC₂O₄⁻",
+   "D": "HC₂O₄⁻ and C₂O₄²⁻"
+  },
+  "answer": "D",
+  "level": 2,
+  "explanation": "1) A conjugate pair differs by exactly one H⁺.\n2) HC₂O₄⁻ loses H⁺ → C₂O₄²⁻: pair HC₂O₄⁻/C₂O₄²⁻ (acid/conjugate base).\n3) The other pair is H₃O⁺/H₂O.\n4) A and C pair the two acids or two reactants; B pairs species that differ by more than one proton (and are not related).",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q66",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 66,
+  "unit": 1,
+  "topic": "ion product of water, Kw",
+  "text": "The self-ionization of water can be expressed by the equation: H₂O(l) + H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq). Which of the following is the correct expression of the ionic product of water?",
+  "opts": {
+   "A": "Kw = Kc[H₂O]²",
+   "B": "Kw = Kc[H₂O]",
+   "C": "Kw = [H₃O⁺][OH⁻]",
+   "D": "Kw = [H₃O⁺][OH⁻]/[H₂O]"
+  },
+  "answer": "C",
+  "level": 2,
+  "explanation": "1) Kc = [H₃O⁺][OH⁻]/[H₂O]².\n2) Liquid water is essentially constant (pure liquid), so it is combined into the constant: Kw = Kc[H₂O]² = [H₃O⁺][OH⁻] = 1.0×10^(−14) at 25 °C.\n3) A is equal in value to Kw but is not the ion-product expression asked for; B uses the wrong power; D keeps water in the expression.",
+  "review": "Paper prints the product as 'H₃O⁻(aq)'; corrected to OH⁻(aq) in the stem. Note A (Kc[H₂O]²) is numerically also Kw; the intended 'ion product' expression is C (book key C)."
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q67",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 67,
+  "unit": 1,
+  "topic": "common ion effect",
+  "text": "What is the effect of a common ion in an electrolytic solution?",
+  "opts": {
+   "A": "It suppresses the ionization of a weak acid and raises the pH.",
+   "B": "It suppresses the ionization of a weak base and lowers the pOH.",
+   "C": "It decreases the solubility of a solute.",
+   "D": "It has no effect on the pH of a solution."
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) HA ⇌ H⁺ + A⁻: adding A⁻ (e.g. from NaA) shifts the equilibrium left (Le Chatelier).\n2) Less ionization → [H⁺] falls → pH rises.\n3) B is wrong: for a weak base, adding the common ion lowers [OH⁻], so pOH RISES. D is wrong (pH changes). C is a true effect only for sparingly soluble ionic solids, not 'a solute' in general, and does not describe the acid–base effect asked about.",
+  "review": "Paper prints 'imitation' for 'ionization' in A and B (corrected). Option C (common ion lowers the solubility of a sparingly soluble salt) is also a real common-ion effect; book key A is the best answer in an acid–base context, but consider rewording C."
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q68",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 68,
+  "unit": 1,
+  "topic": "salt hydrolysis",
+  "text": "Sodium carbonate is a basic salt because it is a salt of",
+  "opts": {
+   "A": "a strong base and a weak acid and the anion of the weak acid can be hydrolyzed.",
+   "B": "a strong base and a strong acid and the anion of the strong acid can be hydrolyzed.",
+   "C": "a weak acid and a weak base and the cation of the weak base can be hydrolyzed.",
+   "D": "a strong acid and a weak base and the anion of the strong acid can be hydrolyzed."
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) Na₂CO₃ comes from NaOH (strong base) and H₂CO₃ (weak acid).\n2) Na⁺ does not hydrolyse; CO₃²⁻ does: CO₃²⁻ + H₂O ⇌ HCO₃⁻ + OH⁻, so the solution is basic.\n3) B: anions of strong acids do not hydrolyse (neutral salt). C: NaOH is not a weak base. D: describes an acidic salt like NH₄Cl, where the cation (not the anion) hydrolyses.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q69",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 69,
+  "unit": 1,
+  "topic": "acid–base titration",
+  "text": "Which of the following statements is true for an acid–base titration?",
+  "opts": {
+   "A": "Indicators catalyze an acid–base titration to show the inflection point of the titration curve.",
+   "B": "Acid–base titration cannot be carried out in the absence of indicators.",
+   "C": "An acid–base titration is a method of quantitative analysis for determining the concentration of an acid or base.",
+   "D": "An acid–base titration is a method of qualitative analysis for determining the concentration of an acid or base."
+  },
+  "answer": "C",
+  "level": 2,
+  "explanation": "1) A solution of known concentration (standard) is added until the equivalence point, and the unknown concentration is calculated (e.g. M_aV_a = M_bV_b for 1:1).\n2) This measures an amount, so it is quantitative analysis.\n3) A: indicators only signal the end point; they do not catalyse. B: a pH meter (potentiometric titration) can replace an indicator. D: 'qualitative' is wrong.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q72",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 72,
+  "unit": 2,
+  "topic": "oxidation definition, oxidation number",
+  "text": "What is oxidation? Oxidation is",
+  "opts": {
+   "A": "the addition of hydrogen to a substance and removal of oxygen from a substance.",
+   "B": "the loss of electrons by a species, accompanied by an increase in oxidation number.",
+   "C": "the addition of electron(s) to the oxidizing agent.",
+   "D": "the reduction of the oxidation state of oxidizing agent."
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) Oxidation = loss of electrons = increase in oxidation number (e.g. Zn → Zn²⁺ + 2e⁻, 0 → +2).\n2) A describes reduction (gain of H / loss of O).\n3) C and D describe what happens to the oxidizing agent, which is itself REDUCED.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q73",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 73,
+  "unit": 2,
+  "topic": "preferential discharge in electrolysis",
+  "text": "What is meant by preferential discharge, if a number of ions are present in a solution? It means that the one requires",
+  "opts": {
+   "A": "least energy will be liberated first at a given electrode.",
+   "B": "least energy will be liberated last at a given electrode.",
+   "C": "highest energy will be liberated first at a given electrode.",
+   "D": "highest energy will be liberated last at a given electrode."
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) When several ions can be discharged at one electrode, the one needing the least energy (lowest discharge potential) is discharged first.\n2) Example: electrolysis of dilute NaCl(aq) — at the cathode H₂ forms rather than Na, because H⁺/H₂O is reduced more easily.\n3) The choice also depends on concentration and electrode type, but B, C and D reverse the energy rule.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q74",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 74,
+  "unit": 2,
+  "topic": "Faraday's second law",
+  "text": "Faraday's second law states:",
+  "opts": {
+   "A": "passing the same quantity of electricity through solutions of different electrolytes produces masses of substances that are directly proportional to their molecular masses.",
+   "B": "passing the same quantity of electricity through solutions of different electrolytes produces masses of substances that are directly proportional to their equivalent masses.",
+   "C": "the amount of substance consumed or produced at an electrode is directly proportional to the quantity of the electricity passing through the solution.",
+   "D": "the amount of substance consumed or produced at an electrode is inversely proportional to the quantity of electricity passing through the solution."
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) Second law: for the same charge Q, m₁/m₂ = E₁/E₂, where equivalent mass E = molar mass / electrons per ion.\n2) Example: same charge deposits Ag (E = 108) and Cu (E = 63.5/2 = 31.75) in the ratio 108 : 31.75.\n3) A uses molecular (molar) mass, ignoring ion charge; C is Faraday's FIRST law (m ∝ Q); D reverses the first law.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q75",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 75,
+  "unit": 2,
+  "topic": "galvanic (Daniell) cell",
+  "text": "Which of the following is true about a Zn–Cu voltaic cell?",
+  "opts": {
+   "A": "The anode half-cell consists of Cu electrode dipped into a Cu²⁺ solution.",
+   "B": "After the cell runs for several hours, the Zn electrode weighs less.",
+   "C": "The electrons flow from right to left through the external circuit.",
+   "D": "As the cell operates, electrons are continuously generated at the cathode and consumed at the anode."
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) Zn is more easily oxidised (E° = −0.76 V) than Cu (E° = +0.34 V), so Zn is the anode: Zn(s) → Zn²⁺(aq) + 2e⁻.\n2) Zn atoms go into solution, so the zinc electrode loses mass (B); Cu²⁺ + 2e⁻ → Cu deposits on the cathode.\n3) A is wrong (Cu/Cu²⁺ is the cathode). D reverses the electrodes: electrons are produced at the anode and used at the cathode. C depends on how the cell is drawn; by the usual convention (anode on the left) electrons flow left to right.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2014 Chemistry Q77",
+  "year": 2014,
+  "subject": "chemistry",
+  "q": 77,
+  "unit": 2,
+  "topic": "industrial electrolysis: Downs cell (sodium)",
+  "text": "Why is CaCl₂ added to NaCl in a 1 : 1½ ratio in the Downs cell for the manufacturing of sodium metal?",
+  "opts": {
+   "A": "CaCl₂ is used as a catalyst.",
+   "B": "CaCl₂ is used to lower melting temperature of NaCl.",
+   "C": "CaCl₂ is used to lower density of the mixture.",
+   "D": "CaCl₂ is used as an electrolyte."
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) Pure NaCl melts at about 801 °C; the CaCl₂–NaCl mixture melts at about 600 °C.\n2) Running at lower temperature saves energy and reduces loss of volatile sodium.\n3) CaCl₂ is not a catalyst (A); it does not serve to lower density (C); the electrolyte being decomposed is NaCl (D).",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q17",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 17,
+  "unit": 2,
+  "topic": "redox reaction definition",
+  "text": "What is a redox reaction? It is a reaction in which",
+  "opts": {
+   "A": "atoms or ions of two compounds exchange bonding partners.",
+   "B": "an acid and a base neutralize each other.",
+   "C": "two soluble ions in compounds form an insoluble product.",
+   "D": "electrons are transferred between species."
+  },
+  "answer": "D",
+  "level": 2,
+  "explanation": "1) Redox = reduction + oxidation happening together.\n2) One species loses electrons (oxidised, oxidation number rises) and another gains them (reduced, oxidation number falls), e.g. Zn + Cu²⁺ → Zn²⁺ + Cu.\n3) A is a double-displacement reaction; B is neutralization; C is precipitation — none needs electron transfer.",
+  "review": "Option C is printed 'Two insoluble ions…'; read as 'two soluble ions…form an insoluble product' (precipitation). Does not affect the answer."
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q18",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 18,
+  "unit": 2,
+  "topic": "electroplating",
+  "text": "Which of the following explains how electroplating takes place?",
+  "opts": {
+   "A": "The cations in the electrolyte are supplied either by the added salt or from oxidation of the anode.",
+   "B": "Metal is deposited on the anode by reduction of ions in the electrolyte solution.",
+   "C": "The electrolyte is an aqueous solution of salts of the plated metal.",
+   "D": "The object to be electroplated, either metal or graphite-coated plastic, constitutes the anode."
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) In electroplating the object is the cathode; the plating metal (e.g. Ag) is the anode; the electrolyte contains ions of the plating metal (e.g. AgNO₃).\n2) At the anode the plating metal is oxidised (Ag → Ag⁺ + e⁻), replacing ions; at the cathode the ions are reduced and deposit (Ag⁺ + e⁻ → Ag). So cations come from the added salt and from the dissolving anode (A).\n3) B is wrong: deposition (reduction) happens at the cathode. D is wrong: the object is the cathode. C is wrong only if 'plated metal' means the object being plated; the electrolyte must contain the PLATING metal's ions.",
+  "review": "Option C is ambiguous: if 'plated metal' is read as the coating (plating) metal, C is also true. Book key A. Reword C (e.g. '…salts of the metal of the object being plated') before use."
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q19",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 19,
+  "unit": 1,
+  "topic": "equivalent mass of a base, normality",
+  "text": "How is the equivalent mass of a base obtained?",
+  "opts": {
+   "A": "By multiplying its number of equivalents by the number of OH⁻ ions furnished by one formula unit of the base.",
+   "B": "By dividing its number of equivalents by the number of OH⁻ ions furnished by one formula unit of the base.",
+   "C": "By multiplying its molar mass by the number of OH⁻ ions furnished by one formula unit of the base.",
+   "D": "By dividing its molar mass by the number of OH⁻ ions furnished by one formula unit of the base."
+  },
+  "answer": "D",
+  "level": 2,
+  "explanation": "1) Equivalent mass of a base = molar mass ÷ number of OH⁻ per formula unit.\n2) Example: Ca(OH)₂, M = 74 g/mol, 2 OH⁻ → equivalent mass = 37 g/eq; NaOH: 40/1 = 40 g/eq.\n3) C multiplies instead of dividing; A and B use number of equivalents, which is what you get from mass ÷ equivalent mass, not the other way round.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q20",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 20,
+  "unit": 2,
+  "topic": "E°cell and spontaneity",
+  "text": "Which one of the following reactions would occur spontaneously in an aqueous solution at 25 °C? Assume that the initial concentrations of the dissolved species are all 1.0 M.\nStandard reduction potentials E° (V): Sn²⁺ + 2e⁻ → Sn, −0.14; Br₂(l) + 2e⁻ → 2Br⁻, +1.07; Ag⁺ + e⁻ → Ag, +0.80; Ni²⁺ + 2e⁻ → Ni, −0.25; Ca²⁺ + 2e⁻ → Ca, −2.87; Cd²⁺ + 2e⁻ → Cd, −0.40; Cu²⁺ + e⁻ → Cu⁺, +0.15; Fe³⁺ + e⁻ → Fe²⁺, +0.77",
+  "opts": {
+   "A": "Cu²⁺(aq) + Fe²⁺(aq) → Cu⁺(aq) + Fe³⁺(aq)",
+   "B": "Ca(s) + Cd²⁺(aq) → Ca²⁺(aq) + Cd(s)",
+   "C": "2Ag(s) + Ni²⁺(aq) → 2Ag⁺(aq) + Ni(s)",
+   "D": "2Br⁻(aq) + Sn²⁺(aq) → Br₂(l) + Sn(s)"
+  },
+  "answer": "B",
+  "level": 3,
+  "explanation": "1) E°cell = E°(cathode, species reduced) − E°(anode, species oxidised); spontaneous when E°cell > 0 (ΔG° = −nFE° < 0).\n2) A: Cu²⁺ reduced, Fe²⁺ oxidised: 0.15 − 0.77 = −0.62 V.\n3) B: Cd²⁺ reduced, Ca oxidised: −0.40 − (−2.87) = +2.47 V → spontaneous.\n4) C: Ni²⁺ reduced, Ag oxidised: −0.25 − 0.80 = −1.05 V.\n5) D: Sn²⁺ reduced, Br⁻ oxidised: −0.14 − 1.07 = −1.21 V.\n6) A, C and D have negative E°cell, so they are not spontaneous as written (their reverse reactions are).",
+  "review": "The paper's table has misprints, corrected in the stem: Br₂/Br⁻ printed +0.107 (book solution uses +1.07), 'Fe³⁺ → Fe⁺' (should be Fe²⁺), 'Cd²⁺ + e⁻' (should be 2e⁻). Answer B is unchanged by these. (In practice Ca also reacts with water, but the question is about E° only.)"
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q23",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 23,
+  "unit": 1,
+  "topic": "pH definition",
+  "text": "The negative logarithm of the molar concentration of hydrogen ion to the base ten is known as",
+  "opts": {
+   "A": "Ka",
+   "B": "pOH",
+   "C": "pH",
+   "D": "Kw"
+  },
+  "answer": "C",
+  "level": 2,
+  "explanation": "1) pH = −log₁₀[H⁺] (or −log[H₃O⁺]).\n2) pOH = −log[OH⁻]; Ka is the acid ionization constant; Kw = [H⁺][OH⁻] is the ion product of water.",
+  "review": "Option D is printed 'K.' (subscript lost); read as Kw. Does not affect the answer."
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q24",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 24,
+  "unit": 2,
+  "topic": "batteries: primary and secondary cells",
+  "text": "Which one of the following galvanic cells is an example of a secondary cell?",
+  "opts": {
+   "A": "Leclanché dry cell",
+   "B": "Zinc–carbon dry cell",
+   "C": "Daniell cell",
+   "D": "Lead storage cell"
+  },
+  "answer": "D",
+  "level": 2,
+  "explanation": "1) A secondary cell can be recharged: passing current backwards reverses the cell reaction.\n2) Lead storage battery: Pb + PbO₂ + 2H₂SO₄ ⇌ 2PbSO₄ + 2H₂O (discharge →, charge ←).\n3) Leclanché and zinc–carbon dry cells (the same cell) are primary (not rechargeable); the Daniell cell is a laboratory primary cell.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q25",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 25,
+  "unit": 2,
+  "topic": "electrolytic conduction",
+  "text": "Which one of the following is responsible for electrolytic conductivity?",
+  "opts": {
+   "A": "Electrons held in a fixed position.",
+   "B": "Movement of ions.",
+   "C": "Ions strongly held in a fixed position.",
+   "D": "Free electrons."
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) In an electrolyte (molten salt or solution) the charge carriers are mobile ions: cations move to the cathode, anions to the anode.\n2) D (free electrons) is metallic conduction. A and C describe charges that cannot move (e.g. a solid ionic crystal does not conduct).",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q26",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 26,
+  "unit": 2,
+  "topic": "oxidation numbers, reducing agent",
+  "text": "Which one of the following is the reducing agent in the following reaction?\n8NH₃(g) + 6NO₂(g) → 7N₂(g) + 12H₂O(l)",
+  "opts": {
+   "A": "H₂O",
+   "B": "N₂",
+   "C": "NO₂",
+   "D": "NH₃"
+  },
+  "answer": "D",
+  "level": 2,
+  "explanation": "1) Oxidation numbers of N: NH₃ = −3, NO₂ = +4, N₂ = 0.\n2) N in NH₃: −3 → 0, an increase → NH₃ is oxidised, so it is the reducing agent.\n3) N in NO₂: +4 → 0, a decrease → NO₂ is reduced, so it is the oxidizing agent (C).\n4) H₂O and N₂ are products, not agents.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q43",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 43,
+  "unit": 1,
+  "topic": "normality calculation",
+  "text": "What is the normality of a solution that contains 19.6 g of H₂SO₄ in 20 mL of the solution? (H = 1, S = 32, O = 16)",
+  "opts": {
+   "A": "20",
+   "B": "10",
+   "C": "0.02",
+   "D": "0.01"
+  },
+  "answer": "A",
+  "level": 3,
+  "explanation": "1) Molar mass H₂SO₄ = 2(1) + 32 + 4(16) = 98 g/mol.\n2) Moles = 19.6/98 = 0.200 mol.\n3) H₂SO₄ gives 2 H⁺ per formula unit → equivalents = 0.200 × 2 = 0.400 eq.\n4) Volume = 20 mL = 0.020 L; N = 0.400/0.020 = 20 N.\n5) B (10) is the molarity, forgetting the factor 2; C and D come from not converting mL to L or inverting the ratio.",
+  "review": "Option D is barely legible in the scan (read as 0.01). Answer A is not affected."
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q45",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 45,
+  "unit": 1,
+  "topic": "titration: equivalence point",
+  "text": "The point in a titration at which the number of moles of OH⁻ ions added to a solution is equal to the number of moles of H⁺ ions originally present is",
+  "opts": {
+   "A": "Triple point",
+   "B": "Equivalence point",
+   "C": "Zero point",
+   "D": "End point"
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) Equivalence point: stoichiometrically equal amounts of acid and base have reacted (mol OH⁻ added = mol H⁺ present).\n2) End point (D) is where the indicator changes colour — ideally close to, but not defined as, the equivalence point.\n3) Triple point is a phase-diagram term; 'zero point' is not a titration term.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q51",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 51,
+  "unit": 1,
+  "topic": "Ka from pH of a weak acid",
+  "text": "The pH of a 0.1 M solution of formic acid (HCOOH) is 3. What is the Ka of the acid?",
+  "opts": {
+   "A": "9.99×10^(−4)",
+   "B": "9.99×10^(−5)",
+   "C": "1.01×10^(−5)",
+   "D": "1.01×10^(−7)"
+  },
+  "answer": "C",
+  "level": 3,
+  "explanation": "1) HCOOH ⇌ H⁺ + HCOO⁻; pH = 3 → [H⁺] = 10^(−3) M = [HCOO⁻] = x.\n2) [HCOOH] at equilibrium = 0.1 − 0.001 = 0.099 M.\n3) Ka = x²/(0.1 − x) = (10^(−3))²/0.099 = 10^(−6)/0.099 ≈ 1.01×10^(−5).\n4) (With the approximation 0.1 − x ≈ 0.1, Ka ≈ 1.0×10^(−5), still closest to C.) A and B come from wrong powers of ten; D squares the wrong quantity.",
+  "review": "Option D is printed '91.01×10^(−7)' (likely '1.01×10^(−7)'). Answer C unaffected."
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q61",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 61,
+  "unit": 2,
+  "topic": "electrolysis of a molten salt",
+  "text": "Which one of the following is TRUE about the electrolysis of a molten hypothetical electrolyte, MX?",
+  "opts": {
+   "A": "Electrons are not transferred from one species to the other.",
+   "B": "The overall reaction is a redox reaction.",
+   "C": "X is produced at the negative electrode.",
+   "D": "M is produced at the anode."
+  },
+  "answer": "B",
+  "level": 2,
+  "explanation": "1) Molten MX contains M⁺ and X⁻ ions.\n2) Cathode (negative): M⁺ + e⁻ → M (reduction). Anode (positive): 2X⁻ → X₂ + 2e⁻ (oxidation).\n3) Overall 2MX → 2M + X₂ is a redox reaction driven by electrical energy (B).\n4) A is false (electrons are transferred via the external circuit). C is false: X forms at the positive electrode. D is false: M forms at the cathode.",
+  "review": null
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q65",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 65,
+  "unit": 2,
+  "topic": "galvanic (Daniell) cell construction",
+  "text": "Which one of the following explains the determination of the cell potential of a Zn–Cu cell using a voltmeter?",
+  "opts": {
+   "A": "A U-tube served as a salt bridge that can be filled with saturated KCl.",
+   "B": "After the experiment the mass of zinc is increased.",
+   "C": "In the Cu half-cell, Cu metal will be dipped in ZnSO₄ solution.",
+   "D": "In the Zn half-cell, Zn metal will be dipped in CuSO₄ solution."
+  },
+  "answer": "A",
+  "level": 2,
+  "explanation": "1) Daniell cell: Zn in ZnSO₄(aq) (anode) and Cu in CuSO₄(aq) (cathode), joined by a salt bridge (U-tube of saturated KCl or KNO₃) and a voltmeter.\n2) The salt bridge completes the circuit and keeps the solutions neutral, so A is correct.\n3) B is wrong: Zn is oxidised, so its mass decreases. C and D swap the solutions; each metal must dip in a solution of its own ions (Zn in CuSO₄ would just react directly).",
+  "review": "Stem printed 'n-Cu cell' (read as Zn–Cu)."
+ },
+ {
+  "ref": "ESSLCE 2015 Chemistry Q68",
+  "year": 2015,
+  "subject": "chemistry",
+  "q": 68,
+  "unit": 2,
+  "topic": "metallic vs electrolytic conduction",
+  "text": "One of the basic differences between metallic conduction and electrolytic conduction is:",
+  "opts": {
+   "A": "The charge carriers in metals are localized electrons while strongly held ions are in electrolytic conduction.",
+   "B": "The conduction of electricity is due to the movement of ions in metallic conduction while the flow of mobile electrons in electrolytic conduction.",
+   "C": "The conduction of electricity is due to the movement of ions in electrolytic conduction while the flow of mobile electrons in metallic conduction.",
+   "D": "The charge carriers in metals are cations and anions while mobile electrons are in electrolytic conduction."
+  },
+  "answer": "C",
+  "level": 2,
+  "explanation": "1) Metals: delocalised (mobile) electrons carry the charge; no chemical change occurs.\n2) Electrolytes: mobile cations and anions carry the charge, and chemical changes (redox) occur at the electrodes.\n3) A says the carriers are localized/strongly held — then nothing could conduct. B and D swap the carriers.",
+  "review": null
+ }
+]
