@@ -1,0 +1,356 @@
+{
+ "exam": "esslce",
+ "year": "2015",
+ "subject": "maths",
+ "lang": "en",
+ "source": "exams/raw/Key Exam Book 2009_2015 (part1)",
+ "key_in_paper": true,
+ "note": "Partial bank: only questions on G12 Maths Unit 1 (sequences and series) and Unit 2 (calculus). ESSLCE Mathematics for Natural Science, Hamle 2015 E.C. (July 2023), booklet 340 — key-p1.pdf pp. 354–363, solutions pp. 378–392",
+ "items": [
+  {
+   "n": 44,
+   "page": null,
+   "text": "Which value of c satisfies the conclusion of the Mean Value Theorem in (0, 1) for f(x) = 3x² − 5x + 1?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 3/5",
+    "B. 1/2",
+    "C. 1",
+    "D. 5/6"
+   ],
+   "answer": "B",
+   "why": "1) f(0) = 1, f(1) = 3 − 5 + 1 = −1.\n2) (f(1) − f(0))/(1 − 0) = −2.\n3) f′(x) = 6x − 5, so 6c − 5 = −2 ⇒ c = 1/2.\n4) Check: 1/2 ∈ (0, 1).",
+   "topics": [
+    "mean value theorem"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 45,
+   "page": null,
+   "text": "Water is running into a conical tank (vertex pointing down) at a constant rate of 6π cm³/sec. The tank is 10 cm high and its base radius is 5 cm. How fast is the water level rising when the water is 2 cm deep?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 6 cm/sec",
+    "B. 4/π cm/sec",
+    "C. 6/π cm/sec",
+    "D. 4 cm/sec"
+   ],
+   "answer": "A",
+   "why": "1) Similar triangles: r/h = 5/10 ⇒ r = h/2.\n2) V = (1/3)πr²h = (1/3)π(h/2)²h = πh³/12.\n3) dV/dt = (πh²/4) dh/dt ⇒ dh/dt = 4(dV/dt)/(πh²).\n4) At h = 2: dh/dt = 4(6π)/(π·4) = 6 cm/s.",
+   "topics": [
+    "related rates (conical tank)"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 3,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 46,
+   "page": null,
+   "text": "Let f(x) = 1/√x and g(x) = 2 − (1/6)x³ be two functions. For what value of x do the graphs of f and g have tangent lines with the same slope?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 1",
+    "B. √3/2",
+    "C. 1/4",
+    "D. 4"
+   ],
+   "answer": "A",
+   "why": "1) f′(x) = −(1/2)x^(−3/2); g′(x) = −(1/2)x².\n2) f′(x) = g′(x) ⇒ x^(−3/2) = x² ⇒ x^(7/2) = 1.\n3) Domain of f is x > 0, so x = 1.\n4) Check: f′(1) = −1/2 = g′(1).",
+   "topics": [
+    "tangent lines with equal slope"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 47,
+   "page": null,
+   "text": "Which of the following describes the mechanical meaning of the derivative?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. Area under curve",
+    "B. Gradient of graph of functions",
+    "C. Slope of tangent line",
+    "D. Instantaneous rate of change"
+   ],
+   "answer": "D",
+   "why": "1) The mechanical (physical) meaning of f′(t) is the instantaneous rate of change, e.g. velocity = rate of change of position.\n2) B and C describe the geometric meaning (slope of the tangent line).\n3) A (area under a curve) is the meaning of a definite integral.",
+   "topics": [
+    "meaning of the derivative"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 1,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 48,
+   "page": null,
+   "text": "Let f(x) = 5x³ + 2x − sin x + e^x. What is the value of f′(x) [at x = 0]?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 1",
+    "B. 2",
+    "C. 4",
+    "D. −1"
+   ],
+   "answer": "B",
+   "why": "1) f′(x) = 15x² + 2 − cos x + e^x.\n2) At x = 0: f′(0) = 0 + 2 − 1 + 1 = 2.",
+   "topics": [
+    "sum rule, derivatives of sin and e^x"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 1,
+   "key": "paper",
+   "verified": true,
+   "review": "Misprint in the paper: it asks for 'the value of f′(x)' without a point; the options are numbers, and the book's solution evaluates f′(0) = 2. Key B is correct for f′(0)."
+  },
+  {
+   "n": 49,
+   "page": null,
+   "text": "Let f and g be differentiable functions and h(x) = g(f(3x + 1)). If f′(1) = f(1) = 2 and g′(2) = 1, then what is the value of h′(0)?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 1",
+    "B. 2",
+    "C. 4",
+    "D. 6"
+   ],
+   "answer": "D",
+   "why": "1) Chain rule: h′(x) = g′(f(3x + 1)) · f′(3x + 1) · 3.\n2) At x = 0: 3x + 1 = 1, so h′(0) = 3·g′(f(1))·f′(1).\n3) f(1) = 2 ⇒ g′(f(1)) = g′(2) = 1; f′(1) = 2.\n4) h′(0) = 3·1·2 = 6.",
+   "topics": [
+    "chain rule (composite of three functions)"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 52,
+   "page": null,
+   "text": "Which one of the following assertions is true by the Principle of Mathematical Induction?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. n! ≥ 2ⁿ for n ≥ 0",
+    "B. 1 + 2 + 2² + … + 2ⁿ = 2^(n+1) − 1 for n ≥ 0",
+    "C. 3 + 5 + 7 + … + (2n + 1) = n² for n ≥ 1",
+    "D. 2 + 3 + 4 + … + n = n(n + 1)/2 + 1 for n ≥ 2"
+   ],
+   "answer": "B",
+   "why": "1) B is a geometric series with a = 1, r = 2, n + 1 terms: sum = (2^(n+1) − 1)/(2 − 1) = 2^(n+1) − 1. Induction: n = 0 gives 1 = 2 − 1; if true for k, adding 2^(k+1) gives 2^(k+1) − 1 + 2^(k+1) = 2^(k+2) − 1. ✓\n2) A fails at n = 1: 1! = 1 < 2.\n3) C fails at n = 1: 3 ≠ 1 (the correct sum is n² + 2n).\n4) D fails at n = 2: 2 ≠ 4 (correct: n(n + 1)/2 − 1).",
+   "topics": [
+    "mathematical induction, sums of series"
+   ],
+   "maps_to": "g12-maths-u1",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 53,
+   "page": null,
+   "text": "Let F be an anti-derivative of f. For constant of integration c, which one of the following is NOT true?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. F′(x) = f(x)",
+    "B. d/dx ∫F(x) dx = F(x) + c",
+    "C. ∫ (d/dx f(x)) dx = f(x) + c",
+    "D. ∫F(x) dx = f(x) + c"
+   ],
+   "answer": "D",
+   "why": "1) A true: that is the definition of an anti-derivative.\n2) C true: integrating a derivative gives the function back plus a constant.\n3) D false: the correct statement is ∫f(x) dx = F(x) + c, not ∫F(x) dx = f(x) + c.\n4) B as printed has '+ c': d/dx ∫F(x) dx = F(x) exactly, so the '+ c' makes B technically false as well.",
+   "topics": [
+    "anti-derivatives (properties)"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 2,
+   "key": "generated",
+   "verified": true,
+   "review": "Book key is 'B and D'. D is the intended NOT-true statement; B is only false because of the stray '+ c' on its right-hand side (d/dx ∫F dx = F exactly). Item is ambiguous as printed; use D."
+  },
+  {
+   "n": 54,
+   "page": null,
+   "text": "∫ 3cos 3x dx = ?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. sin 3x + c",
+    "B. (1/3)sin 3x + c",
+    "C. −sin x + c",
+    "D. sin x + c"
+   ],
+   "answer": "A",
+   "why": "1) Let u = 3x, du = 3 dx.\n2) ∫3cos 3x dx = ∫cos u du = sin u + c = sin 3x + c.\n3) Check: d/dx(sin 3x) = 3cos 3x. ✓",
+   "topics": [
+    "anti-derivative, substitution"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 1,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 55,
+   "page": null,
+   "text": "What is the area of the region bounded by the graph of f(x) = x² − 4 and the x-axis?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 32",
+    "B. 16",
+    "C. 32/3",
+    "D. 16/3"
+   ],
+   "answer": "C",
+   "why": "1) x² − 4 = 0 ⇒ x = ±2; on (−2, 2), f(x) < 0 (below the x-axis).\n2) Area = ∫_{−2}^{2} (4 − x²) dx = [4x − x³/3]_{−2}^{2}.\n3) = (8 − 8/3) − (−8 + 8/3) = 16/3 + 16/3 = 32/3.",
+   "topics": [
+    "area under a curve"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 56,
+   "page": null,
+   "text": "Let f be a continuous function on [0, 1] and let F be an anti-derivative of f such that F(1) = −11 and F(0) = 11. Then ∫_{0}^{1} f(x) dx = ?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 11",
+    "B. −22",
+    "C. 22",
+    "D. 0"
+   ],
+   "answer": "B",
+   "why": "1) Fundamental theorem: ∫_0^1 f(x) dx = F(1) − F(0).\n2) = −11 − 11 = −22.",
+   "topics": [
+    "fundamental theorem of calculus"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 1,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 58,
+   "page": null,
+   "text": "Suppose the sequence {a_n} converges to 3 while {b_n} converges to −1. Then the sequence {a_n − b_n} converges to",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 4",
+    "B. 1",
+    "C. 1/3",
+    "D. 3"
+   ],
+   "answer": "A",
+   "why": "1) Limit of a difference: lim(a_n − b_n) = lim a_n − lim b_n.\n2) = 3 − (−1) = 4.",
+   "topics": [
+    "limit of a sequence (difference rule)"
+   ],
+   "maps_to": "g12-maths-u1",
+   "level": 1,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 63,
+   "page": null,
+   "text": "What is the fifth term of the sequence {2ⁿ + 4n − 5}_{n=0}^∞?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 17",
+    "B. 27",
+    "C. 15",
+    "D. 47"
+   ],
+   "answer": "B",
+   "why": "1) The index starts at n = 0, so the fifth term is n = 4.\n2) 2⁴ + 4(4) − 5 = 16 + 16 − 5 = 27.\n3) Common error: using n = 5 gives 32 + 20 − 5 = 47 (option D).",
+   "topics": [
+    "general term of a sequence"
+   ],
+   "maps_to": "g12-maths-u1",
+   "level": 1,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 64,
+   "page": null,
+   "text": "Which one of the following numbers is an upper bound of the sequence {(2n + 1)/(n + 1)}_{n=1}^∞?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 0",
+    "B. 3/2",
+    "C. 4",
+    "D. 1"
+   ],
+   "answer": "C",
+   "why": "1) (2n + 1)/(n + 1) = 2 − 1/(n + 1).\n2) For n ≥ 1, 0 < 1/(n + 1) ≤ 1/2, so 3/2 ≤ a_n < 2. Terms: 3/2, 5/3, 7/4, … increasing towards 2.\n3) Any M ≥ 2 is an upper bound; among the options only 4 works.\n4) 3/2 is the least term (a lower bound), and 0, 1 are below all terms.",
+   "topics": [
+    "bounded sequences, upper bound"
+   ],
+   "maps_to": "g12-maths-u1",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 65,
+   "page": null,
+   "text": "If the 6th and the 11th terms of an arithmetic sequence are 35 and 75 respectively, then what is the sum of the first 31 terms?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 724",
+    "B. 2145",
+    "C. 846",
+    "D. 2635"
+   ],
+   "answer": "none",
+   "why": "1) a_11 − a_6 = 5d ⇒ 75 − 35 = 5d ⇒ d = 8.\n2) a_1 = a_6 − 5d = 35 − 40 = −5.\n3) S_31 = (31/2)(2a_1 + 30d) = (31/2)(−10 + 240) = (31/2)(230) = 31 × 115 = 3565.\n4) Check: a_31 = −5 + 30(8) = 235; S_31 = 31(−5 + 235)/2 = 3565.\n5) 3565 is not among the options.",
+   "topics": [
+    "arithmetic sequence, sum of arithmetic series"
+   ],
+   "maps_to": "g12-maths-u1",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": "The book gives 'No Answer is given' (its working also gives 3565). Agreed: S_31 = 3565 is not an option, so the item is faulty as printed."
+  }
+ ]
+}

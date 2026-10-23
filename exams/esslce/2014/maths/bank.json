@@ -1,0 +1,356 @@
+{
+ "exam": "esslce",
+ "year": "2014",
+ "subject": "maths",
+ "lang": "en",
+ "source": "exams/raw/Key Exam Book 2009_2015 (part1)",
+ "key_in_paper": true,
+ "note": "Partial bank: only questions on G12 Maths Unit 1 (sequences and series) and Unit 2 (calculus). ESSLCE Mathematics for Natural Science, Tikimt 2015 E.C. (printed '2014/15; October 2022'), the 2014 E.C. exam — key-p1.pdf pp. 344–353, solutions pp. 364–377",
+ "items": [
+  {
+   "n": 7,
+   "page": null,
+   "text": "Which one of the following is the derivative of f(x) = tan x + 3^x?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. −csc²x + 3^x ln x",
+    "B. sec²x + 3^x ln x",
+    "C. sec²x + 3^x",
+    "D. −tan x + 3^x ln x"
+   ],
+   "answer": "none",
+   "why": "1) d/dx(tan x) = sec²x.\n2) d/dx(a^x) = a^x ln a, so d/dx(3^x) = 3^x ln 3.\n3) f′(x) = sec²x + 3^x ln 3.\n4) None of the options matches: B has ln x instead of ln 3, C omits ln 3, A and D have the wrong derivative of tan x.",
+   "topics": [
+    "derivative of tan x and exponential"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 1,
+   "key": "paper",
+   "verified": true,
+   "review": "The book gives 'No Answer'. Agreed: the correct derivative sec²x + 3^x ln 3 is not among the options (B was probably meant to read ln 3)."
+  },
+  {
+   "n": 21,
+   "page": null,
+   "text": "The sum of the first 8 terms of a geometric sequence with first term 0.3 and common ratio 1/10 is equal to:",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. (1/3)·(10^8 − 1)/10^7",
+    "B. (3/10)·(10^8 − 1)/10^9",
+    "C. (3/10)·(10^8 − 1)/10^8",
+    "D. (1/3)·(10^8 − 1)/10^8"
+   ],
+   "answer": "D",
+   "why": "1) S_n = a(1 − rⁿ)/(1 − r) with a = 0.3, r = 1/10, n = 8.\n2) S_8 = 0.3(1 − 10^(−8))/(9/10) = (0.3/0.9)(1 − 10^(−8)) = (1/3)(1 − 10^(−8)).\n3) 1 − 10^(−8) = (10^8 − 1)/10^8, so S_8 = (1/3)·(10^8 − 1)/10^8.\n4) Check: S_8 = 0.33333333 = 0.3 + 0.03 + … + 0.000000003. ✓",
+   "topics": [
+    "sum of geometric series"
+   ],
+   "maps_to": "g12-maths-u1",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 22,
+   "page": null,
+   "text": "What is the seventh term of an arithmetic sequence whose third term is −4 and common difference is 5?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 16",
+    "B. −16",
+    "C. 15",
+    "D. −15"
+   ],
+   "answer": "A",
+   "why": "1) a_7 = a_3 + (7 − 3)d.\n2) a_7 = −4 + 4(5) = 16.\n3) Check: a_1 = −14; −14, −9, −4, 1, 6, 11, 16. ✓",
+   "topics": [
+    "arithmetic sequence, general term"
+   ],
+   "maps_to": "g12-maths-u1",
+   "level": 1,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 24,
+   "page": null,
+   "text": "What is the derivative of the function f(x) = xe^x / cos x at x = 0?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. −1",
+    "B. 2",
+    "C. 0",
+    "D. 1"
+   ],
+   "answer": "D",
+   "why": "1) Quotient rule with u = xe^x, v = cos x: f′ = (u′v − uv′)/v².\n2) u′ = e^x + xe^x, v′ = −sin x.\n3) At x = 0: u = 0, u′ = 1, v = 1, v′ = 0.\n4) f′(0) = (1·1 − 0·0)/1² = 1.",
+   "topics": [
+    "product and quotient rules"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 25,
+   "page": null,
+   "text": "Let f and g be two functions. Which one of the following is true?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. If f is differentiable at a, then f is continuous at a.",
+    "B. The line y = 0 is a tangent line to the graph of f(x) = |x| at (0, 0).",
+    "C. If f and g are differentiable at a, then f/g is differentiable at a.",
+    "D. If f′(a) = 0, then the tangent line to the graph of f at (a, f(a)) is y = a."
+   ],
+   "answer": "A",
+   "why": "1) A is a theorem: differentiability at a implies continuity at a.\n2) B false: |x| has a corner at 0 (left slope −1, right slope 1), so no tangent line there.\n3) C false: f/g needs g(a) ≠ 0 (e.g. g(x) = x at a = 0).\n4) D false: the horizontal tangent is y = f(a), not y = a.",
+   "topics": [
+    "differentiability and continuity, tangent lines"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 1,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 26,
+   "page": null,
+   "text": "Suppose f is a twice continuously differentiable function and f″(3) = 5. If g(x) = f(2x + 3), then what is the second derivative of g at 0?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 20",
+    "B. 40",
+    "C. 10",
+    "D. 5"
+   ],
+   "answer": "A",
+   "why": "1) g′(x) = 2f′(2x + 3) (chain rule).\n2) g″(x) = 2·2f″(2x + 3) = 4f″(2x + 3).\n3) g″(0) = 4f″(3) = 4(5) = 20.",
+   "topics": [
+    "chain rule, second derivative"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 27,
+   "page": null,
+   "text": "If the perimeter of a rectangle is 120 m, what are the length l and width w maximizing its area?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. l = 30 m, w = 30 m",
+    "B. l = 50 m, w = 10 m",
+    "C. l = 40 m, w = 20 m",
+    "D. l = 35 m, w = 25 m"
+   ],
+   "answer": "A",
+   "why": "1) 2l + 2w = 120 ⇒ w = 60 − l.\n2) A(l) = l(60 − l) = 60l − l².\n3) A′(l) = 60 − 2l = 0 ⇒ l = 30, so w = 30; A″ = −2 < 0 (maximum).\n4) Areas: 30×30 = 900 > 35×25 = 875 > 40×20 = 800 > 50×10 = 500.",
+   "topics": [
+    "optimisation"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 28,
+   "page": null,
+   "text": "Suppose f is a continuous function on the interval [a, b] and differentiable on (a, b), and f(a) = f(b). Which one of the following must be true?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. f has a minimum value in (a, b).",
+    "B. f has a zero in (a, b).",
+    "C. The graph of f has a horizontal tangent at (c, f(c)) for some c ∈ (a, b).",
+    "D. f has a maximum value in (a, b)."
+   ],
+   "answer": "C",
+   "why": "1) The hypotheses are those of Rolle's theorem, so f′(c) = 0 for some c ∈ (a, b).\n2) f′(c) = 0 means a horizontal tangent at (c, f(c)) — C.\n3) A need not hold: f(x) = sin x on [0, π] takes its minimum only at the endpoints. D need not hold: f(x) = −sin x on [0, π] takes its maximum only at the endpoints. B fails for f(x) = 2 + sin x on [0, π] (never zero).",
+   "topics": [
+    "Rolle's theorem, horizontal tangent"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 29,
+   "page": null,
+   "text": "Let f be continuous on ℝ and c be a number in the domain of f. Which one of the following must be true?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. If f(c) is a local minimum value of f, then f′(c) = 0.",
+    "B. An absolute maximum value of f which is attained at a critical number is also a local maximum value of f.",
+    "C. If c is a critical number of f, then f(c) is a local extreme value.",
+    "D. If f″(c) = 0, then (c, f(c)) is an inflection point."
+   ],
+   "answer": "B",
+   "why": "1) A false: f(x) = |x| has a local minimum at 0 but f′(0) does not exist.\n2) C false: f(x) = x³ has critical number 0 but no extremum there.\n3) D false: f(x) = x⁴ has f″(0) = 0 but no inflection point (concave up on both sides).\n4) B true: an absolute maximum at an interior point of ℝ is, in particular, the largest value near c, so it is a local maximum.",
+   "topics": [
+    "critical points, local and absolute extrema"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 41,
+   "page": null,
+   "text": "Which one of the following is true about a bounded sequence?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. Every decreasing bounded sequence converges to the least upper bound.",
+    "B. Every monotonic bounded sequence converges.",
+    "C. Every bounded sequence is convergent.",
+    "D. Every increasing bounded sequence converges to the greatest lower bound."
+   ],
+   "answer": "B",
+   "why": "1) Monotone convergence theorem: a monotonic and bounded sequence converges — B.\n2) A false: a decreasing bounded sequence converges to its greatest lower bound (infimum), not the least upper bound.\n3) C false: (−1)ⁿ is bounded but does not converge.\n4) D false: an increasing bounded sequence converges to its least upper bound (supremum).",
+   "topics": [
+    "monotone bounded sequences, convergence"
+   ],
+   "maps_to": "g12-maths-u1",
+   "level": 1,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 44,
+   "page": null,
+   "text": "What is the value of ∫_{0}^{1} xe^x dx?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. e",
+    "B. −e",
+    "C. −1",
+    "D. 1"
+   ],
+   "answer": "D",
+   "why": "1) Integration by parts: u = x, dv = e^x dx ⇒ du = dx, v = e^x.\n2) ∫xe^x dx = xe^x − ∫e^x dx = xe^x − e^x + C.\n3) [xe^x − e^x]_0^1 = (e − e) − (0 − 1) = 1.",
+   "topics": [
+    "definite integral, integration by parts"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 45,
+   "page": null,
+   "text": "∫(1/√x − e^(−3x) + 5/x²) dx is equal to:",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 2√x − e^(−3x)/3 − 5/x + C",
+    "B. 2√x − e^(−3x)/3 + 5/x + C",
+    "C. 2√x + e^(−3x)/3 + 5/x + C",
+    "D. 2√x + e^(−3x)/3 − 5/x + C"
+   ],
+   "answer": "D",
+   "why": "1) ∫x^(−1/2) dx = x^(1/2)/(1/2) = 2√x.\n2) ∫e^(−3x) dx = e^(−3x)/(−3), so −∫e^(−3x) dx = +e^(−3x)/3.\n3) ∫5x^(−2) dx = 5x^(−1)/(−1) = −5/x.\n4) Total: 2√x + e^(−3x)/3 − 5/x + C (option D).\n5) Check by differentiating D: 1/√x + (1/3)(−3)e^(−3x) + 5/x² = 1/√x − e^(−3x) + 5/x². ✓",
+   "topics": [
+    "anti-derivatives (power and exponential)"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 2,
+   "key": "generated",
+   "verified": true,
+   "review": "Book key C is wrong. In its solution the book writes 5·x^(−1)/(−1) but then records +5/x; the correct term is −5/x, so the answer is D (verified by differentiating)."
+  },
+  {
+   "n": 46,
+   "page": null,
+   "text": "Let f be continuous on [a, b]. Which one of the following is NOT true?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. ∫_{a}^{b} f(x) dx = ∫_{a}^{c} f(x) dx − ∫_{c}^{b} f(x) dx for any c in (a, b)",
+    "B. ∫_{c}^{c} f(x) dx = 0 for any c in (a, b)",
+    "C. ∫_{a}^{b} f(x) dx = −∫_{b}^{a} f(x) dx",
+    "D. ∫_{a}^{b} k f(x) dx = k ∫_{a}^{b} f(x) dx"
+   ],
+   "answer": "A",
+   "why": "1) Additivity: ∫_a^b f = ∫_a^c f + ∫_c^b f (a plus sign), so A is NOT true.\n2) B: an integral over an interval of zero length is 0 (true).\n3) C: reversing the limits changes the sign (true).\n4) D: constants can be taken outside the integral (true).\n(Option B's right-hand side is partly cut off in the scan; the standard property ∫_c^c f = 0 is assumed.)",
+   "topics": [
+    "properties of definite integrals"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 1,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 62,
+   "page": null,
+   "text": "If Birr 20,000 is deposited in a bank at a rate of 12% interest compounded monthly, how long will it take to double?",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. 6 years",
+    "B. 7.59 years",
+    "C. 5 years",
+    "D. 5.81 years"
+   ],
+   "answer": "D",
+   "why": "1) A = A₀(1 + r/m)^(mn) with r = 0.12, m = 12: monthly factor 1 + 0.12/12 = 1.01.\n2) Doubling: 2A₀ = A₀(1.01)^(12n) ⇒ (1.01)^(12n) = 2.\n3) 12n = ln 2 / ln 1.01 = 0.693147/0.0099503 ≈ 69.66 months.\n4) n ≈ 69.66/12 ≈ 5.81 years. (The amount 20,000 does not matter.)",
+   "topics": [
+    "compound interest, doubling time"
+   ],
+   "maps_to": "g12-maths-u1",
+   "level": 2,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  },
+  {
+   "n": 65,
+   "page": null,
+   "text": "∫ (x³ + x² − x)/(x² + x − 2) dx is equal to:",
+   "figure": null,
+   "kind": "mcq",
+   "opts": [
+    "A. x²/2 − (1/3)ln|x − 1| − (2/3)ln|x + 2| + C",
+    "B. x²/2 + (1/3)ln|x − 1| + (2/3)ln|x + 2| + C",
+    "C. x²/2 + (1/3)ln|x − 1| − (2/3)ln|x + 2| + C",
+    "D. x²/2 − (1/3)ln|x − 1| + (2/3)ln|x + 2| + C"
+   ],
+   "answer": "B",
+   "why": "1) Divide: x³ + x² − x = x(x² + x − 2) + x, so the integrand is x + x/(x² + x − 2).\n2) x² + x − 2 = (x − 1)(x + 2). Write x/((x − 1)(x + 2)) = A/(x − 1) + B/(x + 2).\n3) x = 1: A = 1/3; x = −2: B = −2/(−3) = 2/3.\n4) ∫ = x²/2 + (1/3)ln|x − 1| + (2/3)ln|x + 2| + C.\n5) Check at x = 2: integrand = (8 + 4 − 2)/4 = 2.5; derivative of B = 2 + (1/3)(1) + (2/3)(1/4) = 2.5. ✓",
+   "topics": [
+    "anti-derivatives, partial fractions"
+   ],
+   "maps_to": "g12-maths-u2",
+   "level": 3,
+   "key": "paper",
+   "verified": true,
+   "review": null
+  }
+ ]
+}
