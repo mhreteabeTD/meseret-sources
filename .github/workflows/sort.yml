@@ -1,0 +1,17 @@
+name: Apply file moves
+on: workflow_dispatch
+permissions: { contents: write }
+jobs:
+  sort:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/apply_moves.py
+      - run: |
+          git config user.name "Mhreteabe Tesfaye"; git config user.email "mhreteabetesfaye71624@gmail.com"
+          git rm -q tools/moves.json tools/apply_moves.py .github/workflows/sort.yml
+          git commit -qm "Sort Grade 9-12 textbooks, guides, exam and reference books into place
+
+          Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+          Claude-Session: https://claude.ai/code/session_013QZp8t8CweNwXw9pzAksCe"
+          git push
