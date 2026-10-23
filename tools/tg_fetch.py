@@ -31,12 +31,32 @@ def safe_name(n):
     return n[:120]
 
 def split_pdf(path):
-    """Split a PDF over the limit into page-range parts, each under the limit."""
+    """Split a PDF over the limit into page-range parts, halving any part still over the limit.
+    Old parts of the same book (from an earlier run) are replaced, so numbering stays consistent."""
     from pypdf import PdfReader, PdfWriter
-    r = PdfReader(path); n = len(r.pages); parts = []; per = max(1, int(n * LIMIT / path.stat().st_size * 0.9)); i = 0; k = 1
-    while i < n:
-        w = PdfWriter(); [w.add_page(r.pages[j]) for j in range(i, min(n, i + per))]
-        p = path.with_name(f'{path.stem}.part{k}.pdf'); w.write(p); parts.append(p); i += per; k += 1
+    import io
+    r = PdfReader(path); n = len(r.pages)
+    def chunk(a, b):  # pages [a, b) as bytes, bisected until small enough
+        w = PdfWriter(); [w.add_page(r.pages[k]) for k in range(a, b)]; buf = io.BytesIO(); w.write(buf); data = buf.getvalue()
+        if len(data) <= LIMIT or b - a == 1: return [data]
+        m = (a + b) // 2; return chunk(a, m) + chunk(m, b)
+    # first cut by estimate, then bisect anything still too big
+    per = max(1, int(n * LIMIT / path.stat().st_size * 0.8)); blobs = []
+    for a in range(0, n, per): blobs += chunk(a, min(n, a + per))
+    for old in path.parent.glob(f'{path.stem}.part*.pdf'): old.unlink()
+    parts = []
+    for k, data in enumerate(blobs, 1):
+        p = path.with_name(f'{path.stem}.part{k}.pdf'); p.write_bytes(data); parts.append(p)
+    path.unlink(); return parts
+
+def split_bytes(path):
+    """Non-PDF over the limit: cut into raw byte parts (rejoin with cat)."""
+    parts = []; k = 1
+    with open(path, 'rb') as f:
+        while True:
+            data = f.read(LIMIT)
+            if not data: break
+            p = path.with_name(f'{path.name}.part{k:02d}'); p.write_bytes(data); parts.append(p); k += 1
     path.unlink(); return parts
 
 async def main():
@@ -66,12 +86,12 @@ async def main():
     async with app:
         for chat, folder, fid, name, size in files:
             d = ROOT / folder; d.mkdir(parents=True, exist_ok=True); dest = d / name
-            if dest.exists() and dest.stat().st_size == size: say(chat, f'↩︎ Already have {folder}/{name}'); continue
+            if (dest.exists() and dest.stat().st_size == size) or list(d.glob(f'{dest.stem}.part*.pdf')) or list(d.glob(f'{dest.name}.part*')): say(chat, f'↩︎ Already have {folder}/{name}'); continue
             t0 = time.time(); print('downloading', folder, name, size)
             try: await app.download_media(fid, file_name=str(dest))
             except Exception as e: say(chat, f'❌ {name}: {e}'); print('failed', name, e); continue
             got = [dest]
-            if dest.stat().st_size > LIMIT and dest.suffix.lower() == '.pdf': got = split_pdf(dest)
+            if dest.stat().st_size > LIMIT: got = split_pdf(dest) if dest.suffix.lower() == '.pdf' else split_bytes(dest)
             mb = size / 1048576
             say(chat, f'✅ {folder}/{name} ({mb:.0f} MB, {time.time() - t0:.0f}s)' + (f' → split into {len(got)} parts' if len(got) > 1 else ''))
     print('done', len(files))
